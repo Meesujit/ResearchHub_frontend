@@ -12,7 +12,8 @@ export class ResearchDto {
     isPublic?: boolean;
     status?: "Pending" | "Approved" | "Rejected";
     feedback?: string;
-    createdAt?: string;
+    createdAt: string;
+    updatedAt: string;
 
     constructor() {
         this._id = '';
@@ -23,5 +24,6 @@ export class ResearchDto {
         this.isPublic = false;
         this.status = "Pending";
         this.createdAt = '';
+        this.updatedAt = '';
     }
 }
