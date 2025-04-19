@@ -33,7 +33,7 @@ export default function Home() {
                         Welcome To <span style={{
                         color: '#e8d55b',
                         fontWeight: 600,
-                    }}>Research Hub.</span>
+                    }}>ResearchHub.</span>
                     </Typography>
                     <Typography sx={{
                         fontSize: 30,
